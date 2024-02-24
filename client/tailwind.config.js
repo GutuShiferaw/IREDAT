@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       backgroundColor: {
-        Loginbg: "#edede9", // Add a custom background color named 'custom'
+        Loginbg: "#ECF0F3",
+        // Add a custom background color named 'custom'
       },
     },
   },

@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "../assets/logo.png";
-
-export const Login = () => {
+export const SignUp = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-Loginbg">
       <div className="flex flex-col items-center justify-center w-2/4 h-3/4 bg-white rounded-lg">
@@ -12,13 +11,19 @@ export const Login = () => {
           <form action="#" className="w-full text-center mb-5">
             <input
               type="text"
-              placeholder="User-name"
+              placeholder=" Create a user-name"
               className="border-black border-2 rounded-2xl mb-5 w-4/5 p-2 text-center text-sm italic"
               required
             />
             <input
               type="text"
-              placeholder="Password"
+              placeholder=" Enter a password"
+              className="border-black border-2 rounded-2xl mb-5  w-4/5 p-2 text-center italic text-sm"
+              required
+            />
+            <input
+              type="text"
+              placeholder=" Re-enter password"
               className="border-black border-2 rounded-2xl mb-5  w-4/5 p-2 text-center italic text-sm"
               required
             />
@@ -26,21 +31,21 @@ export const Login = () => {
               type="submit"
               className="  p-2 bg-black  w-4/5 text-white rounded-2xl"
             >
-              Log In
+              Sign Up
             </button>
           </form>
         </div>
         <div>
           <p className=" text-sm">
-            If you don't have an account yet,{" "}
+            If you Already have an account ,{" "}
             <span>
               {" "}
               <a
-                href="/signup"
+                href="/login"
                 className=" underline font-bold text-blue-600 italic "
               >
                 {" "}
-                Create Account here
+                Log In here
               </a>
             </span>
           </p>

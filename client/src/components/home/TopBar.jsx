@@ -12,7 +12,7 @@ export const TopBar = () => {
             <form>
               <input
                 type="text"
-                placeholder=" Search"
+                placeholder=" Search categories .."
                 className=" w-full p-2 rounded-2xl bg-gray-100"
               />
             </form>

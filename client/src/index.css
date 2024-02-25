@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.sidebar-cont {
+    width: 20%;
+}
+.info-center{
+    width: 30%;
+}

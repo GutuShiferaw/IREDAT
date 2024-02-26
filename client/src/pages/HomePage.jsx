@@ -13,6 +13,7 @@ export const HomePage = () => {
         <div className=" sidebar-cont h-full bg-gray-100 bg-opacity-70">
           <SideBar />
         </div>
+        {/* Personalized Thread list updates dynamically */}
         <div className="thread-cont w-full h-full ">
           <div className="flex w-full h-auto border-b-2 border-gray-100 p-3">
             <div className=" newthread-left justify-start  "></div>
@@ -21,6 +22,8 @@ export const HomePage = () => {
               <FontAwesomeIcon icon={faPen} className=" text-black text-xs" />
             </div>
           </div>
+          {/* Where the Threads Go */}
+          <div></div>
         </div>
         <div className=" info-center h-full bg-gray-100"> </div>
       </div>

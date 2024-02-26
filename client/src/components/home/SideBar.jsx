@@ -6,15 +6,15 @@ export const SideBar = () => {
     <div className=" flex h-full w-full border-r-2 border-gray-100">
       <div className="flex flex-col mt-10">
         <ul className=" px-8">
-          <div className=" flex items-center gap-2 text-lg mb-2 p-2 cursor-pointer hover:bg-gray-200 rounded-md ">
+          <div className=" flex items-center gap-2 text-base mb-2 p-2 cursor-pointer hover:bg-gray-200 rounded-md ">
             <FontAwesomeIcon icon={faHome} className=" text-yellow-500" />
             <li>Home</li>
           </div>
-          <div className="flex items-center gap-2 text-lg mb-2 p-2 cursor-pointer hover:bg-gray-200 rounded-md">
+          <div className="flex items-center gap-2 text-base mb-2 p-2 cursor-pointer hover:bg-gray-200 rounded-md">
             <FontAwesomeIcon icon={faFire} className=" text-yellow-500" />
             <li>Trending</li>
           </div>
-          <div className="flex items-center gap-2 text-lg p-2 cursor-pointer hover:bg-gray-200 rounded-md">
+          <div className="flex items-center gap-2 text-base p-2 cursor-pointer hover:bg-gray-200 rounded-md">
             {" "}
             <FontAwesomeIcon icon={faComments} className=" text-yellow-500" />
             <li>My Threads</li>

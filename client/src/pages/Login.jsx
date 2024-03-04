@@ -17,7 +17,7 @@ export const Login = () => {
               required
             />
             <input
-              type="text"
+              type="password"
               placeholder="Password"
               className="border-black border-2 rounded-2xl mb-5  w-4/5 p-2 text-center italic text-sm"
               required

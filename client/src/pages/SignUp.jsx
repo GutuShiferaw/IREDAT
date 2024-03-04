@@ -16,13 +16,13 @@ export const SignUp = () => {
               required
             />
             <input
-              type="text"
+              type="password"
               placeholder=" Enter a password"
               className="border-black border-2 rounded-2xl mb-5  w-4/5 p-2 text-center italic text-sm"
               required
             />
             <input
-              type="text"
+              type="password"
               placeholder=" Re-enter password"
               className="border-black border-2 rounded-2xl mb-5  w-4/5 p-2 text-center italic text-sm"
               required

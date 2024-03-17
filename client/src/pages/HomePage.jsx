@@ -94,10 +94,13 @@ export const HomePage = () => {
           <SideBar />
         </div>
         <div className="thread-cont flex flex-col w-full h-full ">
-          <div className="flex w-full h-16 border-b-2 border-gray-100 p-3">
+          <div className="flex w-full h-12 sm:h-16 border-b-2 border-gray-100 p-3">
             <div className="newthread-left justify-start"></div>
-            <div className="flex justify-end w-20 sm:w-auto p-1  sm:p-2 bg-yellow-300 rounded-full gap-2 items-center cursor-pointer hover:bg-yellow-200">
-              <span className=" text-xs sm:text-sm italic">New thread</span>
+            <div className="flex justify-end w-24 sm:w-auto  px-1 sm:px-2 bg-yellow-300 rounded-full gap-2 items-center cursor-pointer hover:bg-yellow-200">
+              <span className=" text-xs sm:text-sm italic">
+                <span className=" sm:hidden text-base font-bold">+</span>New
+                thread
+              </span>
               <FontAwesomeIcon
                 icon={faPen}
                 className="hidden sm:inline-block text-black text-xs"

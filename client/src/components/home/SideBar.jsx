@@ -4,7 +4,7 @@ import { faHome, faFire, faComments } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 export const SideBar = () => {
   return (
-    <div className=" flex h-full w-full border-r-2 border-gray-100">
+    <div className=" flex sm:h-full w-full border-r-2 border-gray-100">
       <div className="flex flex-col w-full mt-10">
         <ul className=" w-full">
           <Link to="/">

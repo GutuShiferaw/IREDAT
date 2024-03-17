@@ -27,14 +27,14 @@ export const Profile = () => {
           </div>
           <div className=" stats-cont w-full  mt-7">
             <div className=" w-11/12 sm:w-3/5 flex items-center justify-between mx-auto">
-              <div className=" px-3 py-1 bg-yellow-100 rounded-xl text-xs sm:text-sm">
+              <div className=" px-3 py-1 bg-yellow-100 rounded-xl text-xs sm:text-sm font-bold">
                 {" "}
                 <span>10</span> <span>Posts</span>{" "}
               </div>
-              <div className="px-3 py-1 bg-yellow-100 rounded-xl text-xs sm:text-sm">
+              <div className="px-3 py-1 bg-yellow-100 rounded-xl text-xs sm:text-sm font-bold">
                 <span>200</span> <span>Followers</span>{" "}
               </div>
-              <div className="px-3 py-1 bg-yellow-100 rounded-xl text-xs sm:text-sm">
+              <div className="px-3 py-1 bg-yellow-100 rounded-xl text-xs sm:text-sm font-bold">
                 <span>300</span> <span>Following</span>{" "}
               </div>
             </div>

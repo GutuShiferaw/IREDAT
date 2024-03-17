@@ -54,7 +54,7 @@ const ThreadItem = ({ thread }) => {
         <p className="text-xs text-justify">{thread.caption}</p>
       </div>
 
-      <div className="interactions-cont flex items-center justify-between w-1/2 sm:w-1/4 mx-auto mt-5 p-2 ">
+      <div className="interactions-cont flex items-center justify-between w-3/4 sm:w-1/4 mx-auto mt-5 p-2 ">
         <div className="flex flex-col items-center w-1/4 p-2 gap-2">
           {isLiked ? (
             <FontAwesomeIcon

@@ -12,7 +12,7 @@ export const Login = () => {
           <form action="#" className="w-full text-center mb-5">
             <input
               type="text"
-              placeholder="User-name"
+              placeholder="User name or email"
               className="border-black border-2 rounded-2xl mb-5 w-4/5 p-2 text-center text-sm italic"
               required
             />

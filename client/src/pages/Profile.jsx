@@ -18,14 +18,17 @@ export const Profile = () => {
           <div className=" username-cont w-full text-center mt-3">
             <h1 className=" font-bold text-lg italic">@Paidway_g</h1>
           </div>
-          <div className=" w-full mt-3">
+          <div className=" w-full mt-2">
             <div className="bio-cont w-4/5 mx-auto ">
               <p className=" text-center text-sm">
                 Got no friends only got poeple around me !!
               </p>
             </div>
           </div>
-          <div className=" stats-cont w-full  mt-7">
+          <div className=" mt-3 py-0 w-40 border-2 hover:border-gray-400 bg-gray-200 rounded-lg mx-auto cursor-pointer">
+            <p className="text-center text-sm text-gray-800">Edit Profile</p>
+          </div>
+          <div className=" stats-cont w-full  mt-6">
             <div className=" w-11/12 sm:w-3/5 flex items-center justify-between mx-auto">
               <div className=" px-3 py-1 bg-yellow-100 rounded-xl text-xs sm:text-sm font-bold">
                 {" "}

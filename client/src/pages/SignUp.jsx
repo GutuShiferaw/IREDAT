@@ -51,7 +51,7 @@ export const SignUp = () => {
   };
 
   return (
-    <div className="flex items-center justify-center h-screen bg-Loginbg">
+    <div className=" signup-cont flex items-center justify-center h-screen ">
       <div className="flex flex-col items-center justify-center w-2/4 h-3/4 bg-white rounded-lg">
         <div className="image-cont w-36 mb-10">
           <img src={Logo} alt="Logo img" className="w-full h-auto" />

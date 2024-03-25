@@ -4,7 +4,8 @@ import { Login } from "./pages/Login";
 import { SignUp } from "./pages/SignUp";
 import { HomePage } from "./pages/HomePage";
 import { Profile } from "./pages/Profile";
-export const App = () => {
+
+export default function App() {
   return (
     <div>
       <Router>
@@ -17,4 +18,4 @@ export const App = () => {
       </Router>
     </div>
   );
-};
+}
